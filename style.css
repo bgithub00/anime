@@ -113,6 +113,30 @@ ol {
   Helper CSS
 -----------------------*/
 
+/* Animation: header */
+
+ .header__nav{
+
+} 
+ .animate{
+
+	position: absolute;
+	left:4vw;
+	top:8vh;
+	font-family: "Mulish", sans-serif;
+    color:#e53637;
+	text-align: center;	
+	animation: ani 6s linear  infinite ;
+}
+
+@keyframes ani{
+
+	0%{left: 0px;}
+	100%{left: 800px;}
+	
+	
+}  
+
 .section-title {
 	margin-bottom: 30px;
 }
